@@ -8,13 +8,13 @@ To Do:
 - [x] Move all data input for each section to an input section.
     - [x] Move equities and bonds input fields to the input section.
     - [x] Move cash, liquid, cash equivalents input fields to the input section.
-- [ ] Create an area for other investments.
-- [ ] Improve UI.
+- [x] Create an area for other investments.
+- [x] Improve UI.
     - [x] Create area for income, bills, expenses, savings input fields.
         - Main input area. Saving is auto calculated now. 10/15
     - [x] Create area for equities and bonds input fields.
     - [x] Create area for more cash, liquid, cash equivalents input fields.
-    - [ ] Create area for other investment types like real estate, stuff, etc.
+    - [x] Create area for other investment types like real estate, stuff, etc.
 - [x] Fix Emergency Savings Calculations tab
 - [x] Implement compound interest calculations with the savings over time.
     - ~~This has to be done compunding the annual interest rate monthly to be more precise.~~
@@ -28,7 +28,10 @@ To Do:
 - [ ] Add automated testing section.
     - [ ] Test that the compound interest calculations are correct.
     - [x] Test that the scenario 1 and 2 bills and monthly total expenses are correct.
-    - [ ] Test whether the asset allocations are accurate.
+    - [x] Test whether the asset allocations are accurate.
     - [x] Test whether the emergency savings calculation is correct.
 ~~- [ ] Utilize stocks functionality within Excel to give real time updates.~~
     - (Back to LibreOffice so no stock information.)
+
+Misc Improvements To Think About:
+- [ ] - Have all testing sources come from the Input area instead of depending on the values totaled in each area. That should make testing consistent since one side of the data is coming from a single source for all tests.
